@@ -69,6 +69,8 @@ The relationships between artists, songs and genres will be enacted as follows:
 * A genre has many songs.
 * A genre has many artists through songs.
 
+Artist -< Song >- Genre
+
 We will build these associations through the use of Active Record migrations and
 macros.
 
